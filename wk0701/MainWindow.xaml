@@ -1,0 +1,25 @@
+﻿<Window x:Class="wk0502.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wk0502"
+        mc:Ignorable="d"
+        xmlns:h="http://helix-toolkit.org/wpf"
+          Title="Getting Started Demo" Height="480" Width="640">
+
+       <h:HelixViewport3D >
+         <h:DefaultLights/>
+        <h:FileModelVisual3D Source="C:\Users\USER\Downloads\wk07\bunny.obj">
+          <h:FileModelVisual3D.DefaultMaterial>
+            <DiffuseMaterial>
+                        <DiffuseMaterial.Brush>
+                          <SolidColorBrush Color="Yellow"/>
+                        </DiffuseMaterial.Brush>
+                      </DiffuseMaterial>
+          </h:FileModelVisual3D.DefaultMaterial>
+
+        </h:FileModelVisual3D>
+       </h:HelixViewport3D>
+
+   </Window>

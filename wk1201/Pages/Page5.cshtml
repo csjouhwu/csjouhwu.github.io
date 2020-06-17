@@ -1,0 +1,45 @@
+﻿@page
+@model Page5Model
+@{
+  ViewData["Title"] = "靜態網頁選單";
+}
+<h1>@ViewData["Title"]</h1>
+
+@for(var i = 8; i <= 10; i++)
+{
+  @for (var j=1; j<3; j++)
+  {
+     @if (i >= 10)
+     {
+         <a href='@( "wk" + i + "0" + j + ".html")'>@( "第" + i + "0" + j + "題")</a><br/>
+     }
+     else
+     {
+      <a href='@( "wk0" + i + "0" + j + ".html")'>@( "第0" + i + "0" + j + "題")</a><br/>
+     }
+   }
+}
+<div id="div2"></div>
+<script>
+   //<a href="wk0802.html">第08週第02題</a><br/>
+var div3 = document.getElementById("div2");
+for (var i=8; i<=10; i++)
+ for (var j=1; j<=2; j++)
+ {
+    var a2 = document.createElement("a");
+    if (i<10)
+    {
+    a2.setAttribute("href", "wk0"+ i + "0"+ j + ".html");
+    a2.innerHTML = "第0"+ i + "週第0" + j + "題";
+    div3.appendChild(a2);
+    div3.appendChild(document.createElement("br"));
+    }
+    else
+    {
+      a2.setAttribute("href", "wk"+ i + "0"+ j + ".html");
+      a2.innerHTML = "第"+ i + "週第0" + j + "題";
+      div3.appendChild(a2);
+      div3.appendChild(document.createElement("br"));
+    }
+  }
+</script>

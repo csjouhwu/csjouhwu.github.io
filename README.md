@@ -2,6 +2,7 @@
 ### SD1082 2020/6/17
 ## 第1週課程摘記(asp.net core/atom/docker / Console/ Web/UseUrls/Mobile)
 ### wk0101 CS 基本架構
+![GitHub Logo](/wk0101.png)
 ### wk0102 CS Web 程式架構
 ### wk0103.html VR 基本架構
 ## 第2週課程摘記(Review Wk1 atom/asp.net core/ aframe.io mobile/ C# I/O)

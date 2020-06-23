@@ -7,7 +7,12 @@ cd wk0101 <br/>
 dotnet run <br/>
 ![GitHub Logo](/wk0101.png)
 ### wk0102 CS Web 程式架構
+dotnet new web -o wk0102<br/>
+cd wk0102 <br/>
+dotnet run <br/>
+chrome https://localhost:5001/<br/>
 ### wk0103.html VR 基本架構
+https://aframe.io<br/>
 ## 第2週課程摘記(Review Wk1 atom/asp.net core/ aframe.io mobile/ C# I/O)
 ### wk0201 CS 基礎 (I/O)
 ## 第3週課程摘記(C# 基礎：for/ if /Winforms)

@@ -50,15 +50,30 @@ double loop<br/>
 ## 第5週課程摘記(WPF/for loop/button/helixtoolkit 3D/teapot)
 ### wk0501B WPF xaml
 ### wk0501 WPF app step by step class/object/for/if
+dotnet new WPF -o wk0501<br/>
+button class<br/>
+position<br/>
+double loop<br/>
+5x5 button<br/>
+![wpf1](Figs/wk0502.png)
 ### wk0502 wpf VR external library helixtoolkit.wpf
+https://github.com/helix-toolkit/helix-toolkit/wiki/Getting-started-with-WPF-3D
+https://www.nuget.org/packages/HelixToolkit.Wpf/
+https://docs.microsoft.com/en-us/dotnet/framework/wpf/graphics-multimedia/how-to-apply-multiple-transformations-to-a-3-d-model
+![wpf2](Figs/wk0503.png)
 ## 第6週課程摘記(WPF xaml vs C# / tripple loop)
 ### wk0601 WPF xaml Transform
 ### wk0602 WPF xaml vs CS + loop
+5x5x5 cube helixtoolkit<br/>
+![wpf3](Figs/wk0601.png)
 ### wk0603 WPF 3D from obj files
+![wpf4](Figs/wk0602.png)
 ## 第7週課程摘記(WPF FileModelVisual3D/DefaultMaterial/xaml vs C#)
 ### wk0701 WPF 3D DefaultMaterial
+![wpf5](Figs/wk0701.png)
 ### wk0702 WPF 3D DefaultMaterial
 ### wk0703 WPF 3D xaml vs CS
+![wpf6](Figs/wk0702.png)
 ## 第8週課程摘記(web/html/aframe)
 ### wk0801 dotnet new web -o wk0801
 ### wk0802 html basic

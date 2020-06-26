@@ -11,8 +11,14 @@ dotnet new web -o wk0102<br/>
 cd wk0102 <br/>
 dotnet run <br/>
 chrome https://localhost:5001/<br/>
+![web 1](/Figs/wk0102.png)
 ### wk0103.html VR 基本架構
 https://aframe.io<br/>
+### wk0104 Docker Hello world
+https://hub.docker.com/_/hello-world <br/>
+docker run hello-world<br/>
+docker images<br/>
+![docker hello](/Figs/wk0104.png)
 ## 第2週課程摘記(Review Wk1 atom/asp.net core/ aframe.io mobile/ C# I/O)
 ### wk0201 CS 基礎 (I/O)
 ## 第3週課程摘記(C# 基礎：for/ if /Winforms)

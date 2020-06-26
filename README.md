@@ -77,10 +77,14 @@ https://docs.microsoft.com/en-us/dotnet/framework/wpf/graphics-multimedia/how-to
 ## 第8週課程摘記(web/html/aframe)
 ### wk0801 dotnet new web -o wk0801
 ### wk0802 html basic
+![html1](wk0802.png)
 ### wk0803 aframe basic
+![html2](wk0803.png)
 ## 第9週期中考試摘記(a-obj-model/tag vs javascript)
 ### wk0901 3d obj tag
+![html3](wk0901.png)
 ### wk0802 3d obj tag vs javascript
+![html4](wk0902.png)
 ## 第10週課程摘記(github account/username.github.io project/skin files of mtl)
 ### github account
 ### wk1001 3d mtl files settings

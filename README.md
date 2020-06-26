@@ -88,12 +88,15 @@ https://docs.microsoft.com/en-us/dotnet/framework/wpf/graphics-multimedia/how-to
 ## 第10週課程摘記(github account/username.github.io project/skin files of mtl)
 ### github account
 ### wk1001 3d mtl files settings
+![html5](wk1001.png)
 ### wk1002 mtl files vs brushes
+![html5](wk1002.png)
 ## 第11週課程摘記(docker/nginx)
 ### 11-1 docker nginx
 https://blog.techbridge.cc/2018/03/17/docker-build-nginx-tutorial/<br/>
 cmd<br/>
 docker run -d -p 7777:80 --name webserver nginx<br/>
+![html6](Figs/wk1101.png)
 ### 11-4 multiple containers
 docker --version <br/>
 docker run -d -p 7777:80 --name webserver nginx<br/>
@@ -101,28 +104,53 @@ docker run -d -p 8888:80 --name webserver2 nginx<br/>
 docker ps<br/>
 docker cp wk0802.html 3ef:/usr/share/nginx/html/wk0802.html<br/>
 docker cp wk0803.html 46f:/usr/share/nginx/html/wk0803.html<br/>
+![html7](Figs/wk1102.png)
+![html8](Figs/wk1103.png)
 ## 第12週課程摘記(Razor C#/loop/staticfiles/asp.net sample container)
 ### 12-1 Razor
+![html9](Figs/wk1201.png)
 dotnet new razor -o wk1201 <br/>
+![html10](Figs/wk1202.png)
 copy static files into wwwroot<br/>
 ### 12-2 Razor Container example
 docker run -it --rm -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/core/samples:aspnetapp<br/>
 copy static files into wwwroot<br/>
+![html11](Figs/wk1203.png)
+aframe example<br/>
+![html12](Figs/wk1204.png)
 ## 第13週課程摘記(Razor C#/Page 3/marquee)
 ### 13-1 Razor Page3 架構
+![html13](Figs/wk1301.png)
 ## 第14週課程摘記(Razor+aframe/C# string skill/C# vs javascript)
 ### 14-1 Page4 html
+![html14](Figs/wk1401.png)
 ### 14-2 Page5 step by step html + javascript vs CS
+![html15](Figs/wk1402.png)
+![html16](Figs/wk1403.png)
+![html17](Figs/wk1404.png)
 ## 第15週課程摘記(Razor+aframe/re-write report)
 ### 15-1 Page6 step by step Razor + aframe
+![html18](Figs/wk1501.png)
 ### 15-2 wwwroot
 ### 15-3 index.html tag vs javascript
 ## 第16週課程摘記(SPA bootstrap/html a/javascript html-a/drv.tw + qrcode)
 ### 16-1 goolge driver www.sd1082.io drv.tw
+bootstrap template <br/>
+![html19](Figs/wk1601.png)
+![html20](Figs/wk1602.png)
 ### 16-2 qrcode generator online
 ### 16-3 upload wwwroot into www.sd1082.io
 ### 16-4 qrcode scan
 ## 第17週課程摘記(SPA bootstrap index.html)
 ### 17-1 img tag src setAttribute
+![html21](Figs/wk1701.png)
 ### 17-2 href = id
+![html22](Figs/wk1702.png)
 ### drv.tw + qrcode
+![html23](Figs/wk1703.png)
+![html24](Figs/wk1704.png)
+### 學生成果
+drv.tw <br/>
+![html25](Figs/wk1705.png)
+user.github.io<br/>
+![html26](Figs/wk1801.png)

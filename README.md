@@ -21,11 +21,32 @@ docker images<br/>
 ![docker hello](/Figs/wk0104.png)
 ## 第2週課程摘記(Review Wk1 atom/asp.net core/ aframe.io mobile/ C# I/O)
 ### wk0201 CS 基礎 (I/O)
+namespace xx <br/>
+{<br/>
+  class oo<br/>
+  {<br/>
+    static void Main()<br/>
+    {<br/>
+      ... <br/>
+    }<br/>
+  }<br/>
+}<br/>
+![Console1](/Figs/wk0201.png)
 ## 第3週課程摘記(C# 基礎：for/ if /Winforms)
 ### wk0302 CS 基礎 (for)
+![Console2](Figs/wk0302.png)
 ### wk0303 CS Form app
+dotnet new WinForms -o wk0303<br/>
+![Console2](Figs/wk0303.png)
 ## 第4週課程摘記(C# WinForms/Button/for loop/if)
 ### wk0401 Form app step by step class/object/for/if
+dotnet new WinForms -o wk0401<br/>
+button class<br/>
+![form1](Figs/wk0402.png)
+position<br/>
+double loop<br/>
+5x5 button<br/>
+![form2](Figs/wk0403.png)
 ## 第5週課程摘記(WPF/for loop/button/helixtoolkit 3D/teapot)
 ### wk0501B WPF xaml
 ### wk0501 WPF app step by step class/object/for/if

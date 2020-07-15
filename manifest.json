@@ -19,8 +19,4 @@
         }
     ],
     "url": "https://csjouhwu.github.io/"
-    "serviceworker": {
-    "src": "pwabuilder-sw.js",
-    "update_via_cache": "none"
-    }
 }

@@ -1,147 +1,17 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='manifest' href='/manifest.json'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 {
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 {
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 {
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
-  </style>
-</head>
-<body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">周重石</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#who">周重石</a></li>
-        <li><a href="#what">專長</a></li>
-        <li><a href="#where">作品</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- First Container -->
-<div id="who" class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="csjou.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>I'm an adventurer</h3>
-</div>
-
-<!-- Second Container -->
-<div id="what" class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>醒吾科技大學資訊科技系 虛擬/擴增實境影用</p>
-  <a href="#what" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
-
-<!-- Third Container (Grid) -->
-<div id="where" class="container-fluid bg-3 text-center">
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>wk0802.html html 架構</p>
-      <a href="wk0802.html">
-      <img src="wk0802.png" class="img-responsive margin" style="width:100%" alt="Image">
-      </a>
-    </div>
-    <div class="col-sm-4">
-      <p>wk0803.html aframe.io 架構</p>
-      <a href="wk0803.html">
-      <img src="wk0803.png" class="img-responsive margin" style="width:100%" alt="Image">
-      </a>
-    </div>
-  </div>
-</div>
-<!-- Third Container (Grid) -->
-<div id="wk9" class="container-fluid bg-3 text-center">
-  <h3 class="margin">Wk9 作品</h3><br>
-  <div id="wk92" class="row">
-
-    <script>
-      var wk92b = document.getElementById("wk92");
-      var i;
-      for (i=1; i<3; i++)
-      {
-       var div2 = document.createElement("div");
-       div2.setAttribute("class", "col-sm-4");
-       var p2 = document.createElement("p");
-       p2.innerHTML= "wk090" + i + ".html 3d obj-model 案例";
-       div2.appendChild(p2);
-       var a2 = document.createElement("a");
-       a2.setAttribute("href","wk090" + i + ".html");
-       var im2 = document.createElement("img");
-       im2.setAttribute("src","wk090" + i + ".png");
-       im2.setAttribute("class","img-responsive margin");
-       im2.setAttribute("style","width:100%");
-       a2.appendChild(im2);
-       div2.appendChild(a2);
-       wk92b.appendChild(div2);
-     }
-      </script>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
-</footer>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
 
 </body>
 </html>

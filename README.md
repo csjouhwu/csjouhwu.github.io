@@ -2,7 +2,7 @@
 ### SD1092 2021/5/13
 ## 第13週課程摘記(bootstrap3 template + embedded webVR)
 ### wk1301.html wk1301.html <a href=”#idname”>說明</a>
-### wk1302.html Add <!-- 4th Container (Grid) -->
+### wk1302.html Add 4th Container (Grid)
 ### wk1303.html  aframe tag a-curvedimage 
 ### wk1304.html  aframe embedded  
 ## 第12週課程摘記(asp.net core/web/github/bootstrap3 template)

@@ -1,10 +1,19 @@
 ## csjouhwu.github.io
-### SD1092 2021/5/13
+### SD1092 2021/6/3
+## 第15週課程摘記(jQuery add element/block)
+### wk1501.html 相對位置 ../wk14/OOOO.jpg
+### wk1502.html jQuery add block
+### wk1503.html bootstrap template wk1304.html + jQuery add block
+### SD1092 2021/5/27
+## 第14週課程摘記(embedded webVR/jQuery syntax)
+### wk1401.html Copy wk1304.html
+### wk1402.html jQuery syntax
 ## 第13週課程摘記(bootstrap3 template + embedded webVR)
 ### wk1301.html wk1301.html <a href=”#idname”>說明</a>
 ### wk1302.html Add 4th Container (Grid)
 ### wk1303.html  aframe tag a-curvedimage 
 ### wk1304.html  aframe embedded  
+### SD1092 2021/5/14
 ## 第12週課程摘記(asp.net core/web/github/bootstrap3 template)
 ### wk1201.html aframe.io hellow world
 ### wk1202

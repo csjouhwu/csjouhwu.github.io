@@ -8,6 +8,17 @@
 ## 第14週課程摘記(embedded webVR/jQuery syntax)
 ### wk1401.html Copy wk1304.html
 ### wk1402.html jQuery syntax
+### Notes
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    if($("p").is(":visible"))
+    { $("p").hide();}
+    else
+    { $("p").show();}
+  });
+});
+</script>
 ## 第13週課程摘記(bootstrap3 template + embedded webVR)
 ### wk1301.html wk1301.html <a href=”#idname”>說明</a>
 ### wk1302.html Add 4th Container (Grid)

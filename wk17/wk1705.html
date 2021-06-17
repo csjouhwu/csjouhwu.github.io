@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>The audio element</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio style="width: 300px; height:200px" controls>
+  <source src="../wk16/tminun.mp3" type="audio/mp3" />
+  <track kind="subtitles" label="English subtitles" src="../wk16/tminun.vtt" srclang="en" default />
+  Your browser does not support the audio element.
+</audio>
+<h5 id="subt1">My First Heading</h5>
+<script>
+$('audio')[0].textTracks[0].oncuechange = function() { 
+    var currentCue = this.activeCues[0].text;
+    $('#subt1').html(currentCue);
+}
+</script>
+</body>
+</html>
